@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Hotel Reservation</title>
+    <style>
+      .header-img {
+        position: relative;
+        width: 100%;
+        height: 35rem;
+        overflow: hidden;
+      }
+
+      .header-img img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      .header-text {
+        position: absolute;
+        top: 50%;
+        left: 10%;
+        transform: translate(-10%, -50%);
+        width: 22rem;
+        background: rgba(255, 255, 255, 0.95);
+        padding: 1rem 2rem;
+        font-size: 2rem;
+        font-weight: bold;
+        border-radius: 0.5rem;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      }
+    </style>
+  </head>
+  <body>
+
+    <header class="header-img mb-5">
+      <img
+        src="https://images.pexels.com/photos/338504/pexels-photo-338504.jpeg"
+        alt="Hotel Header"
+      />
+      <div class="header-text">Welcome to Our Luxurious Hotel</div>
+    </header>
+
+    <main class="container mb-5" id="rooms-container">
+      <!-- rooms will be dynamically injected here -->
+    </main>
+  </body>
+</html>
